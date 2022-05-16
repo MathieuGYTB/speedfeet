@@ -16,16 +16,7 @@
             <img src="images/logo.jpg" class="d-inline-block align-text-top" id="logo">
             SpeedFeet
           </a> 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              contact
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="tel:+600000000">téléphoner</a></li>
-              <li><a class="dropdown-item" href="mailto:exemple@exemple.com">envoyer un e-mail</a></li>
-            </ul>
-          </li>
-          <a class="navbar-brand" href="#">contact</a>
+          <a class="navbar-brand" href="#contact">contact</a>
           <a class="navbar-brand" title="lien vers la page évènement" href="event.html">évènement à venir</a>
         </div>
       </nav>
@@ -34,8 +25,18 @@
     <main>
 
     </main>
-    <footer>
-      <img src="images/addidas.png" id="sponsor">
+    <footer class="d-flex justify-content-around">
+      <div class="sponsor">
+        <h5>Sponsor</h5>
+        <a href="https://www.adidas.fr/" target="_blank"><img src="images/addidas.png" id="sponsorLogo"></a>
+      </div>
+      <div id="contact">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+600000000">téléphoner</a></li>
+          <li><a href="mailto:exemple@exemple.com">envoyer un e-mail</a></li>
+        </ul>
+      </div>
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
