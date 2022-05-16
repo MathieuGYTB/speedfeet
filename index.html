@@ -5,11 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>SpeedFeet</title>
     <meta name="description" content="site vitrine de l'association de course à pieds SpeedFeet"/>
-    <link href="bootstrap.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
   </head>
   <body>
     <header>
-      
+      <nav class="navbar fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" class="d-inline-block align-text-top" id="logo">
+            SpeedFeet
+          </a> 
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              contact
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="tel:+33600000000">téléphoner</a></li>
+              <li><a class="dropdown-item" href="mailto:exemple@exemple.com">envoyer un e-mail</a></li>
+            </ul>
+          </div>
+            <a class="navbar-brand" title="lien vers la page évènement" href="event.html">évènement à venir</a>
+        </div>
+      </nav>
+      <img src="images/course.jpg" id="run">
     </header>
     <main>
 
@@ -17,5 +36,8 @@
     <footer>
 
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
