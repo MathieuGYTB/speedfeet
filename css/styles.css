@@ -4,6 +4,20 @@ body {
   padding: 0;
 }
 
+main {
+  font-family: "Raleway", sans-serif;
+  margin: 20px;
+}
+
+.section {
+  display: block;
+}
+
+footer {
+  background-color: darkgrey;
+  font-family: Marker Felt, fantasy;
+}
+
 .navbar {
   font-family: Marker Felt, fantasy;
 }
@@ -18,11 +32,6 @@ body {
   height: 300px;
 }
 
-footer {
-  background-color: darkgrey;
-  font-family: Marker Felt, fantasy;
-}
-
 #sponsorLogo {
   width: 50px;
   height: 50px;
@@ -34,17 +43,10 @@ footer {
 
 #contact {
   color: black;
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
 }
 
-main {
-  font-family: "Raleway", sans-serif;
-  margin: 20px;
-}
-
-.section {
-  display: block;
+ul {
+  list-style-type: none;
 }
 
 @media screen and (min-width: 769px) {
