@@ -27,6 +27,12 @@ body {
   }
 }
 
+@media screen and (max-width: 232px) {
+  .event {
+    display: none;
+  }
+}
+
 #logo {
   width: 30px;
   height: 24px;
