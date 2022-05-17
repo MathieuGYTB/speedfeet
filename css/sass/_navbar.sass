@@ -1,2 +1,24 @@
-.navbar-brand 
-  font-family: $fontFamily
+.navbar 
+  font-family: $fontFamilyNavbarFooter   
+
+.contact
+  @media screen and (max-width: 404px)
+    display: none 
+
+.event
+  @media screen and (max-width: 326px)
+    text-indent: -9999px
+    line-height: 0
+    &::after
+      content: "à venir"
+      text-indent: 0
+      display: block
+      line-height : initial
+
+    
+  
+    
+  
+    
+  
+
