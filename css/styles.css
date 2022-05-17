@@ -8,31 +8,6 @@ body {
   font-family: Marker Felt, fantasy;
 }
 
-@media screen and (max-width: 404px) {
-  .contact {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 326px) {
-  .event {
-    text-indent: -9999px;
-    line-height: 0;
-  }
-  .event::after {
-    content: "à venir";
-    text-indent: 0;
-    display: block;
-    line-height: initial;
-  }
-}
-
-@media screen and (max-width: 232px) {
-  .event {
-    display: none;
-  }
-}
-
 #logo {
   width: 30px;
   height: 24px;
@@ -68,8 +43,12 @@ main {
   margin: 20px;
 }
 
+.section {
+  display: block;
+}
+
 @media screen and (min-width: 769px) {
-  article {
+  #article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -81,6 +60,31 @@ main {
 
 @media screen and (max-width: 500px) {
   iframe {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 404px) {
+  .contact {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 326px) {
+  .event {
+    text-indent: -9999px;
+    line-height: 0;
+  }
+  .event::after {
+    content: "à venir";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+  }
+}
+
+@media screen and (max-width: 232px) {
+  .event {
     display: none;
   }
 }
