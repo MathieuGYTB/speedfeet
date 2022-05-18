@@ -102,13 +102,13 @@ ul {
   }
 }
 
-@media screen and (max-width: 404px) {
+@media screen and (max-width: 422px) {
   .contact {
     display: none;
   }
 }
 
-@media screen and (max-width: 326px) {
+@media screen and (max-width: 344px) {
   .event {
     text-indent: -9999px;
     line-height: 0;
@@ -121,7 +121,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 232px) {
+@media screen and (max-width: 249px) {
   .event {
     display: none;
   }
