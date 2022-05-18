@@ -49,6 +49,34 @@ ul {
   list-style-type: none;
 }
 
+.newsDate {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 40px;
+  background-color: #d90008;
+  text-align: center;
+}
+
+.day {
+  font-size: 18px;
+  width: 34px;
+  color: #ffffff;
+}
+
+.month {
+  font-size: 12px;
+  width: 34px;
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.card {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 769px) {
   #article {
     display: -webkit-box;
