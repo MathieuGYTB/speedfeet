@@ -77,6 +77,14 @@ ul {
   max-width: 100%;
 }
 
+.card-body {
+  margin-left: 10px;
+}
+
+.img-fluid {
+  max-width: 220px;
+}
+
 @media screen and (min-width: 769px) {
   #article {
     display: -webkit-box;
