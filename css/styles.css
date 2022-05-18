@@ -49,6 +49,11 @@ ul {
   list-style-type: none;
 }
 
+.telephone, .email {
+  width: 30px;
+  height: 30px;
+}
+
 .newsDate {
   position: relative;
   top: 0px;
