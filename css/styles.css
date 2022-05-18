@@ -108,7 +108,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 320px) {
   .event {
     text-indent: -9999px;
     line-height: 0;
